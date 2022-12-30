@@ -1,0 +1,8 @@
+* The function apartmentHunting takes in a list of blocks and a list of required buildings.
+* It initializes a variable minMaxDistance to the positive infinity and a variable optimalBlock to -1.
+* It loops through each block and for each block, it initializes a variable maxDistance to 0. This variable will be used to store the maximum distance from the current block to any of the required buildings.
+* It loops through each required building and initializes a variable distance to the positive infinity. This variable will be used to store the distance from the current block to the current required building.
+* If the current required building is not present in the current block, it loops through the blocks before and after the current block and finds the distance to the nearest block that has the current required building.
+* It updates the maximum distance from the current block to any of the required buildings.
+* It updates the minimum maximum distance if the maximum distance from the current block is smaller.
+* It returns the index of the optimal block.
